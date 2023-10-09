@@ -1,0 +1,52 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+    font-weight: 500;
+}
+
+#color_transition {
+    transition: color 2s;
+}
+
+.tracking-in-contract-bck-top {
+    animation: tracking-in-contract-bck-top 1s cubic-bezier(.215, .61, .355, 1.000) both
+}
+
+@keyframes tracking-in-contract-bck-top {
+    0% {
+        letter-spacing: 1em;
+        transform: translateZ(400px) translateY(-300px);
+        opacity: 0
+    }
+
+    40% {
+        opacity: .6
+    }
+
+    100% {
+        transform: translateZ(0) translateY(0);
+        opacity: 1
+    }
+}
+
+.tracking-in-contract {
+    animation: tracking-in-contract .8s cubic-bezier(.215, .61, .355, 1.000) both
+}
+
+@keyframes tracking-in-contract {
+    0% {
+        letter-spacing: 1em;
+        opacity: 0
+    }
+
+    40% {
+        opacity: .6
+    }
+
+    100% {
+        letter-spacing: normal;
+        opacity: 1
+    }
+}

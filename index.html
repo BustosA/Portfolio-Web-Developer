@@ -1,0 +1,263 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>Lautaro Bustos | Fullstack Developer</title>
+  <link rel="icon" href="./assets/taza-de-cafe.png" type="image/x-icon">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./scripts.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+
+<body>
+  <nav
+    class="sticky top-0 left-0 w-full relative flex w-full flex-nowrap items-center justify-center bg-white py-2 text-neutral-500 shadow-lg hover:text-neutral-700 focus:text-neutral-700 lg:flex-wrap lg:justify-start lg:py-4 z-10"
+    data-te-navbar-ref>
+    <div class="flex w-full items-center justify-center px-3">
+      <button
+        class="block border-0 bg-transparent px-2 text-neutral-300 hover:no-underline hover:shadow-none focus:no-underline focus:shadow-none focus:outline-none focus:ring-0 dark:text-neutral-200 lg:hidden"
+        type="button" data-te-collapse-init data-te-target="#navbarSupportedContent10"
+        aria-controls="navbarSupportedContent10" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="[&>svg]:w-7">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-7 w-7">
+            <path fill-rule="evenodd"
+              d="M3 6.75A.75.75 0 013.75 6h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z"
+              clip-rule="evenodd" />
+          </svg>
+        </span>
+      </button>
+
+      <div class="!visible mt-2 hidden items-center lg:mt-0 lg:!flex" id="navbarSupportedContent10"
+        data-te-collapse-item>
+        <ul class="list-style-none flex pl-0 lg:mt-1" data-te-navbar-nav-ref>
+          <li class="my-4 pl-2 lg:my-0 lg:pl-2 lg:pr-1" data-te-nav-item-ref>
+            <a class="text-black transition duration-200 hover:text-neutral-200 hover:ease-in-out focus:text-neutral-200 disabled:text-black/30 motion-reduce:transition-none lg:px-2 [&.active]:text-black/90 [&.active]:text-neutral-200"
+              aria-current="page" href="#start" data-te-nav-link-ref>Inicio</a>
+          </li>
+          <li class="mb-4 pl-2 lg:mb-0 lg:pl-0 lg:pr-1" data-te-nav-item-ref>
+            <a class="p-0 text-black transition duration-200 hover:text-neutral-200 hover:ease-in-out focus:text-neutral-200 disabled:text-black/30 motion-reduce:transition-none lg:px-2 [&.active]:text-black/90 [&.active]:text-neutral-200"
+              href="#about-me" data-te-nav-link-ref>Sobre mí</a>
+          </li>
+          <li class="mb-4 pl-2 lg:mb-0 lg:pl-0 lg:pr-1" data-te-nav-item-ref>
+            <a class="p-0 text-black transition duration-200 hover:text-neutral-200 hover:ease-in-out focus:text-neutral-200 disabled:text-black/30 motion-reduce:transition-none lg:px-2 [&.active]:text-black/90 [&.active]:text-neutral-200"
+              href="#projects" data-te-nav-link-ref>Proyectos</a>
+          </li>
+          <li class="mb-4 pl-2 lg:mb-0 lg:pl-0 lg:pr-1" data-te-nav-item-ref>
+            <a class="p-0 text-black transition duration-200 hover:text-neutral-200 hover:ease-in-out focus:text-neutral-200 disabled:text-black/30 motion-reduce:transition-none lg:px-2 [&.active]:text-black/90 [&.active]:text-neutral-200"
+              href="#contact" data-te-nav-link-ref>Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="w-screen h-screen" id="start">
+    <div class="text-center pt-20">
+      <img src="./assets/profile-pic-2.png" alt="Foto de Lautaro Bustos"
+        class="mx-auto w-32 h-32 rounded-full shadow-lg mb-4">
+      <h2
+        class="mb-2 mt-0 text-5xl font-medium leading-tight text-primary text-blue-600 rounded tracking-in-contract-bck-top">
+        Lautaro Bustos</h2>
+      <h3
+        class="mb-2 mt-0 text-2xl font-medium leading-tight text-primary text-black-500 rounded rainbow-text tracking-in-contract"
+        id="color_transition">Fullstack web
+        developer</h3>
+      <p class="py-5 leading-8 container mx-auto max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl px-4">Soy un
+        entusiasta de la programación apasionado por el constante cambio y evolución en
+        el mundo tecnológico. Mi
+        curiosidad me impulsa, y mi pasión me guía, siempre con ganas de enfrentar nuevos desafíos y seguir aprendiendo.
+      </p>
+      <button type="button"
+        class="inline-block rounded bg-blue-600 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)]">CV
+      </button>
+    </div>
+  </section>
+
+  <section id="about-me" class="w-screen h-screen flex items-center justify-between">
+    <div class="w-1/2 p-8">
+      <h2 class="text-3xl font-bold mb-6">Sobre mí</h2>
+      <p class="text-lg mb-6">
+        Hola soy Lautaro Agustín Bustos, estudiante de la carrera de Licenciatura en Sistemas y un entusiasta de la
+        programación. Actualmente estoy enfocado en aprender sobre desarollo web aunque siempre busco aprender nuevas
+        tecnologías y mejorar constantemente.
+      </p>
+      <p class="text-lg">
+        Algunas de las herramientas tecnologicas con las que ya estuve trabajando y tengo algo de experiencia son las
+        siguientes:
+      </p>
+    </div>
+
+    <div class="w-1/2 p-8 bg-white shadow-lg rounded-lg">
+      <h2 class="text-3xl font-bold mb-6">Habilidades</h2>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+
+        <div class="text-center">
+          <img src="./assets/html.png" alt="HTML" class="mx-auto mb-2 w-16 h-16">
+          <p class="text-md">HTML</p>
+        </div>
+
+
+        <div class="text-center">
+          <img src="./assets/css-3.png" alt="CSS3" class="mx-auto mb-2 w-16 h-16">
+          <p class="text-md">CSS3</p>
+        </div>
+
+        <div class="text-center">
+          <img src="./assets/bootstrap.png" alt="Bootstrap" class="mx-auto mb-2 w-16 h-16">
+          <p class="text-md">Bootstrap</p>
+        </div>
+
+        <div class="text-center">
+          <img src="./assets/tailwind.png" alt="Tailwindcss" class="mx-auto mb-2 w-16 h-16">
+          <p class="text-md">Tailwind</p>
+        </div>
+
+
+        <div class="text-center">
+          <img src="./assets/js.png" alt="JavaScript" class="mx-auto mb-2 w-16 h-16">
+          <p class="text-md">JavaScript</p>
+        </div>
+
+        <div class="text-center">
+          <img src="./assets/React-icon.png" alt="ReactJS" class="mx-auto mb-2 w-16 h-16">
+          <p class="text-md">ReactJS</p>
+        </div>
+
+        <div class="text-center">
+          <img src="./assets/typescript.png" alt="TypeScript" class="mx-auto mb-2 w-16 h-16">
+          <p class="text-md">TypeScript</p>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+
+  <section class="w-screen h-screen flex flex-col items-center justify-center" id="projects">
+
+    <h2 class="text-3xl font-bold mb-8">Proyectos</h2>
+
+    <div class="w-full max-w-5xl mx-auto">
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 items-center justify-center">
+        <div class="flex-grow max-w-sm rounded overflow-hidden shadow-lg bg-white">
+          <img class="min-w-full min-h-full object-cover" src="./assets/proyect1.png" alt="Imagen del proyecto">
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2">E-commerce demo</div>
+            <p class="text-gray-700 text-base">
+              En colaboración con un equipo de tres, desarrollamos un proyecto frontend utilizando React.js durante
+              nuestra cursada en la UTN. Este proyecto refleja nuestra capacidad para trabajar en equipo y aplicar
+              técnicas modernas de desarrollo web.
+            </p>
+          </div>
+          <div class="px-6 pt-4 pb-2">
+            <a href="https://bustos-ecommerce.netlify.app/"
+              class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
+              Ver más
+            </a>
+          </div>
+        </div>
+        <div class="flex-grow max-w-sm rounded overflow-hidden shadow-lg bg-white">
+          <img class="min-w-full min-h-full object-cover" src="" alt="Imagen del proyecto">
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2">Nombre del proyecto</div>
+            <p class="text-gray-700 text-base">
+              Descripción del proyecto.
+            </p>
+          </div>
+          <div class="px-6 pt-4 pb-2">
+            <a href="#" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
+              Ver más
+            </a>
+          </div>
+        </div>
+        <div class="flex-grow max-w-sm rounded overflow-hidden shadow-lg bg-white">
+          <img class="w-full" src="ruta_de_tu_imagen.jpg" alt="Imagen del proyecto">
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2">Nombre del proyecto</div>
+            <p class="text-gray-700 text-base">
+              Descripción del proyecto.
+            </p>
+          </div>
+          <div class="px-6 pt-4 pb-2">
+            <a href="#" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
+              Ver más
+            </a>
+          </div>
+        </div>
+        <div class="flex-grow max-w-sm rounded overflow-hidden shadow-lg bg-white">
+          <img class="w-full" src="ruta_de_tu_imagen.jpg" alt="Imagen del proyecto">
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2">Nombre del proyecto</div>
+            <p class="text-gray-700 text-base">
+              Descripción del proyecto.
+            </p>
+          </div>
+          <div class="px-6 pt-4 pb-2">
+            <a href="#" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
+              Ver más
+            </a>
+          </div>
+        </div>
+        <div class="flex-grow max-w-sm rounded overflow-hidden shadow-lg bg-white">
+          <img class="w-full" src="ruta_de_tu_imagen.jpg" alt="Imagen del proyecto">
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2">Nombre del proyecto</div>
+            <p class="text-gray-700 text-base">
+              Descripción del proyecto.
+            </p>
+          </div>
+          <div class="px-6 pt-4 pb-2">
+            <a href="#" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
+              Ver más
+            </a>
+          </div>
+        </div>
+        <div class="flex-grow max-w-sm rounded overflow-hidden shadow-lg bg-white">
+          <img class="w-full" src="ruta_de_tu_imagen.jpg" alt="Imagen del proyecto">
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2">Nombre del proyecto</div>
+            <p class="text-gray-700 text-base">
+              Descripción del proyecto.
+            </p>
+          </div>
+          <div class="px-6 pt-4 pb-2">
+            <a href="#" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
+              Ver más
+            </a>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <section id="contact" class="w-screen h-screen flex items-center justify-center">
+    <div class="text-center">
+        <h2 class="text-3xl font-bold mb-6">Contáctame</h2>
+        <p class="text-lg mb-6">
+            ¿Quieres hablar sobre un proyecto o simplemente saludar? No dudes en conectarte conmigo.
+        </p>
+
+        <a href="https://github.com/BustosA" target="_blank" class="mx-4">
+            <i class="fab fa-github text-2xl text-gray-800 hover:text-blue-600"></i>
+        </a>
+
+        <a href="https://www.linkedin.com/in/lautaroagustinbustos/" target="_blank" class="mx-4">
+            <i class="fab fa-linkedin text-2xl text-gray-800 hover:text-blue-600"></i>
+        </a>
+
+        <a href="mailto:lautaroabustos@gmail.com" class="text-3xl text-gray-800 hover:text-blue-600 mx-4">
+            <i class="fas fa-envelope"></i>
+        </a>
+    </div>
+</section>
+
+</body>
+</html>
